@@ -1,0 +1,16 @@
+.svg {
+    width: 100px;
+    height: 100px;
+}
+
+svg path,
+svg circle {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+svg:hover path {
+    fill: red;
+}
